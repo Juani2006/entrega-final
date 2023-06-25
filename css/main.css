@@ -1,0 +1,820 @@
+/* RESET */ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* ESTILOS DEL PODER/CONTENEDOR */ 
+.contenedor{
+
+    background-color: darkslategrey;
+    height: 800px;
+    /* flex */
+    display: flex;
+    /* PARA CELULARES */
+    flex-wrap: row wrap;
+
+    /* eje horizontal */
+    justify-content: center;
+    justify-content: space-evenly;
+
+    /* eje vertical */
+    align-items: flex-start;
+}
+
+/* estilos de los hijos/items */
+
+.hijo{
+    background-color: burlywood;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+}
+
+
+/* estilos de ejemplo */
+
+/* estilos generales*/
+
+body {
+    background: rgb(179, 8, 8)
+}
+
+/* estilos del header */ 
+
+.escudo-he{
+width: 4%;
+height: 4%;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+body header{
+    justify-content: space-evenly;
+}
+
+.tituloIndependiente{
+    font-family: 'Gloock', serif;
+    color: whitesmoke;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+header nav ul{
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+header h1{
+    color: whitesmoke;
+    padding: 10px
+}
+.nav-link {
+    color: whitesmoke;
+}
+.juanito{
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    color: whitesmoke;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+    
+.escudo{
+    width: 60px;
+    height: 50px;
+    padding: 10px;
+}
+
+
+/* estilos del main*/ 
+
+main div a{
+color: whitesmoke;
+text-decoration: none;
+}
+
+main div a:hover{
+color: black;
+}
+
+div h1{
+    margin-top: 40px;
+}
+.main-full div img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.main-full{
+height: 70vh;
+margin-left: 150px;
+margin-right: 150px;
+margin-top: 40px;
+
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 50%);
+row-gap: 2rem;
+column-gap: 2rem;
+}
+
+.main-full .img-uno{
+    grid-row: span 2;
+    column-gap: 2rem;
+}
+
+body main h1{
+margin-top: 30px;
+}
+
+main hr{
+margin-top: 10px;
+}
+
+.rojo {
+    width: 70px;
+    height: 70px;
+}
+
+h1{
+    font-family: 'Gloock', serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Gloock', serif;
+    color: red;
+}
+
+.taigla{
+    width: 500px;
+    height: 500px;
+    margin: 0px 0px 0px 0px;
+}
+
+.kun{
+    width: 900px;
+    height: 500px;
+    margin: 0px 300px 0px 100px;
+}
+
+.contenedo{
+    display: flex;
+}
+
+h2{
+    color: whitesmoke;
+}
+h3{
+    color: whitesmoke;
+}
+
+body main h2{
+    margin-top: 40px;
+    text-align: center;
+}
+body main h4{
+    text-align: center;
+    color: black;
+}
+.lanus{
+    width: 60%;
+    height: 60%;
+    margin-top: 40px;
+    margin-left: 380px;
+}
+
+.ind-entradas{
+    color: whitesmoke
+}
+.main-entradas{
+    background-color: whitesmoke;
+}
+.texto-entradas{
+font-size: 17px;
+}
+.venta-h2{
+    color: rgb(179, 8, 8);
+}
+.valor{
+    margin-top: 30px;
+}
+.div-entradas{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+main div p{
+    margin-top: 30px;
+    padding: 20px;
+}
+hr{
+    margin-top: 10px;
+}
+.btn{
+    margin-left: 1300px;
+    background-color: rgb(179, 8, 8);
+    padding: 13px 13px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 0px;
+    margin-bottom: 80px;
+}
+.btn:hover{
+    background-color: rgb(63, 54, 54);
+}
+
+.div-pibas{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.las-pibas{
+justify-content: center;
+margin-top: 40px;
+}
+.main-pibas{
+    background-color: whitesmoke;
+}
+.h2-pibas{
+    color: rgb(179, 8, 8);
+}
+/* estilos de footer */
+
+.footer-princ{
+    margin-top: 80px;
+}
+
+.insta{
+    height: 40px;
+    width: 40px;
+    margin-top: 50px;
+    margin-left: 700px;
+}
+.tiktok{
+    height: 40px;
+    width: 40px;
+    margin: 90px 0px 0px 0px;
+}
+.twitter{
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    margin-top: 60px;
+}
+footer{
+    background-color: rgb(63, 54, 54);
+    min-height: 20vh;
+
+}
+.formu{ 
+    margin-top: 150px;
+    margin-right: 30px;
+    background-color: whitesmoke;
+}
+
+.rey-loco{
+    margin-left: 1200px;
+}
+
+/* estilos imagenes*/
+
+.estadio{
+    margin: 0px 0px 0px 0px;
+}
+.estadio{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+}
+.doble{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin: 0px 0px 0px 500px;
+}
+.estadios{
+    display: flex;
+}
+@keyframes slide {
+	0% { transform: translateX(0); }
+	10% { transform: translateX(0); }
+
+	15% { transform: translateX(-100%); }
+	30% { transform: translateX(-100%); }
+
+	35% { transform: translateX(-200%); }
+	50% { transform: translateX(-200%); }
+
+	55% { transform: translateX(-300%); }
+	70% { transform: translateX(-300%); }
+
+	75% { transform: translateX(-400%); }
+	90% { transform: translateX(-400%); }
+
+	95% { transform: translateX(-500%); }
+	100% { transform: translateX(-500%); }
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+	font-family: sans-serif;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.slider {
+	position: relative;
+}
+
+.slides {
+	position: relative;
+	display: flex;
+	overflow: hidden;
+}
+
+.slide {
+	width: 100vw;
+	flex-shrink: 0;
+	animation-name: none;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.slides:hover .slide {
+	animation-play-state: paused;
+}
+
+.slide img {
+	width: 100%;
+	vertical-align: top;
+}
+
+.slide a {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+.caption {
+	color: white;
+	text-shadow: 1px 1px black;
+	font-size: 8vw;
+	position: absolute;
+	bottom: 8vw;
+	right: 4vw;
+}
+
+.slide:target {
+	animation-name: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 50;
+}
+
+.slider-controler {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 100;
+}
+
+.slider-controler li {
+	margin: 0 0.5rem;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.slider-controler a {
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+	.slide {
+		width: 1200px;
+	}
+
+	.caption {
+		font-size: 20px;
+		bottom: 20px;
+		right: 0px;
+	}
+}
+.main-estadio{
+    display: flex;
+    padding: 60px;
+    background-color: whitesmoke;
+}
+.p-estadio{
+    color: rgb(63, 54, 54);
+    padding: 16px;
+}
+
+@media( max-width: 500px ){
+
+
+body {
+    background: rgb(179, 8, 8)
+}
+
+/* estilos del header */ 
+
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    align-items: center;
+}
+
+header nav ul{
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+header h1{
+    color: whitesmoke;
+    padding: 10px
+}
+.nav-link {
+    color: whitesmoke;
+}
+.juanito{
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    color: whitesmoke;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+    
+.escudo{
+    width: 60px;
+    height: 50px;
+    padding: 10px;
+}
+
+
+/* estilos del main*/ 
+
+.main-estadio{
+justify-content: center;
+display: block;
+}
+
+main div a{
+color: whitesmoke;
+text-decoration: none;
+}
+
+main div a:hover{
+color: black;
+}
+
+div h1{
+    margin-top: 40px;
+}
+.main-full div img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.main-full{
+height: 70vh;
+margin: 30px;
+
+display: flex;
+flex-direction: column;
+}
+
+.main-full .img-uno{
+    grid-row: span 2;
+    column-gap: 2rem;
+}
+
+body main h1{
+margin-top: 30px;
+}
+
+main hr{
+margin-top: 10px;
+}
+
+.rojo {
+    width: 70px;
+    height: 70px;
+}
+
+h1{
+    font-family: 'Gloock', serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Gloock', serif;
+    color: red;
+}
+
+.taigla{
+    width: 500px;
+    height: 500px;
+    margin: 0px 0px 0px 0px;
+}
+
+.kun{
+    width: 900px;
+    height: 500px;
+    margin: 0px 300px 0px 100px;
+}
+
+.contenedo{
+    display: flex;
+}
+
+h2{
+    color: whitesmoke;
+}
+h3{
+    color: whitesmoke;
+}
+
+body main h2{
+    margin-top: 40px;
+    text-align: center;
+}
+body main h4{
+    text-align: center;
+    color: black;
+}
+.lanus{
+    width: 60%;
+    height: 60%;
+    margin-top: 40px;
+    margin-left: 380px;
+}
+
+.ind-entradas{
+    color: whitesmoke
+}
+.main-entradas{
+    background-color: whitesmoke;
+}
+.texto-entradas{
+font-size: 17px;
+}
+.venta-h2{
+    color: rgb(179, 8, 8);
+}
+.valor{
+    margin-top: 30px;
+    height: 100px;
+    width: 120px;
+}
+.div-entradas{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+main div p{
+    display: block;
+    margin-top: 30px;
+    padding: 20px;
+}
+hr{
+    margin-top: 10px;
+}
+.btn{
+    margin-left: 1300px;
+    background-color: rgb(179, 8, 8);
+    padding: 13px 13px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 0px;
+    margin-bottom: 80px;
+}
+.btn:hover{
+    background-color: rgb(63, 54, 54);
+}
+.p-pibas{
+    font-size: 11px;
+}
+.h2-pibas{
+    justify-content: center;
+}
+
+/* estilos de footer */
+
+footer{
+margin-top: 280px;
+display: block;
+
+}
+
+.insta{
+    height: 40px;
+    width: 40px;
+    margin-top: 50px;
+    margin: 90px 0px 0px 0px;
+}
+.tiktok{
+    height: 40px;
+    width: 40px;
+    margin: 90px 0px 0px 0px;
+}
+.twitter{
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    margin-top: 60px;
+}
+footer{
+    background-color: rgb(63, 54, 54);
+    min-height: 20vh;
+
+}
+.formu{ 
+    margin-top: 150px;
+    margin-right: 30px;
+    background-color: whitesmoke;
+}
+
+.rey-loco{
+    margin-left: 1200px;
+}
+
+/* estilos imagenes*/
+
+.estadio{
+    margin: 0px 0px 0px 0px;
+}
+.estadio{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+}
+.doble{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin: 0px 0px 0px 500px;
+}
+.estadios{
+    display: flex;
+}
+@keyframes slide {
+	0% { transform: translateX(0); }
+	10% { transform: translateX(0); }
+
+	15% { transform: translateX(-100%); }
+	30% { transform: translateX(-100%); }
+
+	35% { transform: translateX(-200%); }
+	50% { transform: translateX(-200%); }
+
+	55% { transform: translateX(-300%); }
+	70% { transform: translateX(-300%); }
+
+	75% { transform: translateX(-400%); }
+	90% { transform: translateX(-400%); }
+
+	95% { transform: translateX(-500%); }
+	100% { transform: translateX(-500%); }
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+	font-family: sans-serif;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.slider {
+	position: relative;
+}
+
+.slides {
+	position: relative;
+	display: flex;
+	overflow: hidden;
+}
+
+.slide {
+	width: 100vw;
+	flex-shrink: 0;
+	animation-name: none;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.slides:hover .slide {
+	animation-play-state: paused;
+}
+
+.slide img {
+	width: 100%;
+	vertical-align: top;
+}
+
+.slide a {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+.caption {
+	color: white;
+	text-shadow: 1px 1px black;
+	font-size: 8vw;
+	position: absolute;
+	bottom: 8vw;
+	right: 4vw;
+}
+
+.slide:target {
+	animation-name: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 50;
+}
+
+.slider-controler {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 100;
+}
+
+.slider-controler li {
+	margin: 0 0.5rem;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.slider-controler a {
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+}
+}
